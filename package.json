@@ -1,0 +1,23 @@
+{
+  "name": "futureafrica",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "build": "nodemon app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "mongoose": "^6.1.3",
+    "morgan": "~1.9.1",
+    "peerjs": "^1.3.2",
+    "shortid": "^2.2.16",
+    "socket.io": "^4.4.0",
+    "uuid": "^8.3.2"
+  }
+}
